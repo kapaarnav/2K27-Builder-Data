@@ -1,0 +1,13 @@
+# Local update scripts. GitHub gets the database and the README.
+*.py
+__pycache__/
+*.pyc
+
+# Pull working files. The published copy is data/2k27.sqlite.
+data/checkpoints/
+data/raw/
+
+# SQLite sidecars
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
